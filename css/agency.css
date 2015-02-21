@@ -260,8 +260,8 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   font-family: "nexa_rust_script_l0regular", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 20px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-lead-in span {
