@@ -2,10 +2,11 @@
 
 Welcome to Brian Hamburg's home on the World Wide Web. This page, proudly hosted on GitHub Pages, was built using the following tools:
 
-+ Bootstrap
-+ Less
-+ Animate.css
-+ Grunt
++ [Bootstrap](http://getbootstrap.com/)
++ [Less](http://lesscss.org/)
++ [Animate.css](http://daneden.github.io/animate.css/)
++ [Grunt](http://gruntjs.com/)
++ [Formspree](http://formspree.io/)
 
 ## Created with [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
