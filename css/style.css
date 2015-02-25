@@ -603,9 +603,13 @@ section#contact .form-group input.form-control {
 section#contact .form-group textarea.form-control {
   height: 236px;
 }
+section#contact .form-control {
+  opacity: .85;
+}
 section#contact .form-control:focus {
   border-color: #ff6600;
   box-shadow: none;
+  opacity: 1;
 }
 section#contact ::-webkit-input-placeholder {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
