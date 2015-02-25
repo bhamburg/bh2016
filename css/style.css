@@ -591,13 +591,13 @@ aside.clients img {
 }
 section#contact {
   background-color: #303030;
-  background-image: url('../img/philly1927.jpg');
+  background-image: url('../img/philly-map.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-attachment: scroll;
-  background-position: bottom right;
+  background-position: bottom center;
 }
 section#contact .section-heading {
   color: white;
