@@ -244,7 +244,7 @@ header {
   background-color: #303030;
   background-image: url('../img/philly1927.jpg');
   background-repeat: none;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -279,6 +279,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header {
+    background-attachment: fixed;
     min-height: 100vh;
   }
   header .intro-text {
@@ -388,9 +389,17 @@ section h3.section-subheading {
 section#music {
   background-color: #f6f6f6;
   background-image: url('../img/FSB1920.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  -o-background-size: cover;
+  background-attachment: scroll;
   background-position: center center;
+}
+@media (min-width: 767px) {
+  section#music {
+    background-attachment: fixed;
+  }
 }
 .timeline {
   list-style: none;
@@ -583,8 +592,11 @@ aside.clients img {
 section#contact {
   background-color: #303030;
   background-image: url('../img/philly1927.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  -o-background-size: cover;
+  background-attachment: scroll;
   background-position: bottom right;
 }
 section#contact .section-heading {
@@ -635,6 +647,11 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #e74c3c;
+}
+@media (min-width: 767px) {
+  section#contact {
+    background-attachment: fixed;
+  }
 }
 footer {
   padding: 25px 0;

@@ -193,7 +193,7 @@ header {
 	background-color: @gray-darkest;
     background-image: url('../img/philly1927.jpg');
 	background-repeat: none;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: top;
 	.background-cover;
 	text-align: center;
@@ -224,6 +224,7 @@ header {
 
 @media(min-width:768px) {
 	header {
+        background-attachment: fixed;
         min-height: 100vh;
 		.intro-text {
 			padding-top: 300px;
@@ -352,9 +353,15 @@ section {
 section#music {
 	background-color: @gray-lighter;
 	background-image: url('../img/FSB1920.jpg');
-	background-size: cover;
-	background-attachment: fixed;
+	.background-cover;
+	background-attachment: scroll;
 	background-position: center center;
+}
+
+@media(min-width:767px) {
+    section#music {
+        background-attachment: fixed;
+    }
 }
 
 // Timeline
@@ -574,8 +581,8 @@ aside.clients {
 section#contact {
 	background-color: @gray-darkest;
 	background-image: url('../img/philly1927.jpg');
-	background-size: cover;
-	background-attachment: fixed;
+	.background-cover;
+	background-attachment: scroll;
 	background-position: bottom right;
 	.section-heading {
 		color: white;
@@ -624,6 +631,12 @@ section#contact {
 	.text-danger {
 		color: @brand-danger;
 	}
+}
+
+@media(min-width:767px) {
+    section#contact {
+        background-attachment: fixed;
+    }
 }
 
 // Footer
