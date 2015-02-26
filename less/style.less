@@ -191,10 +191,10 @@ h4, h5, h6 {
 
 header {
 	background-color: @gray-darkest;
-    background-image: url('../img/philly1927.jpg');
+    background-image: url('../img/philly1927-1080px.jpg');
 	background-repeat: none;
 	background-attachment: scroll;
-	background-position: top;
+    background-position: center 50px;
 	.background-cover;
 	text-align: center;
 	color: white;
@@ -205,19 +205,21 @@ header {
 		.intro-lead-in {
 			.serif-font;
 			font-style: normal;
-			font-size: 18px;
-			line-height: 20px;
+			font-size: 30px;
+			line-height: 38px;
 			margin-bottom: 25px;
-            span {
-                .heading-font;
-                margin: 0 15px;
+            span.amp {
+                display: none;
+            }
+            span.br {
+                display: inline;
             }
 		}
 		.intro-heading {
 			.heading-h1-font;
 			font-weight: normal;
-			font-size: 50px;
-			line-height: 50px;
+			font-size: 40px;
+			line-height: 42px;
 			margin-bottom: 25px;
 		}
 	}
@@ -226,6 +228,7 @@ header {
 @media(min-width:768px) {
 	header {
         background-attachment: fixed;
+        background-position: top;
 		.intro-text {
 			padding-top: 300px;
 			padding-bottom: 200px;
@@ -234,10 +237,18 @@ header {
 				font-size: 40px;
 				line-height: 40px;
 				margin-bottom: 25px;
+                span.amp {
+                    display: inline;
+                    .heading-font;
+                    margin: 0 15px;
+                }
+                span.br {
+                    display: none;
+                }
 			}
 			.intro-heading {
 				font-size: 75px;
-				line-height: 75px;
+				line-height: 77px;
 				margin-bottom: 50px;
 			}
 		}

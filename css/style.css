@@ -242,10 +242,10 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   background-color: #303030;
-  background-image: url('../img/philly1927.jpg');
+  background-image: url('../img/philly1927-1080px.jpg');
   background-repeat: none;
   background-attachment: scroll;
-  background-position: top;
+  background-position: center 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -261,26 +261,28 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   font-family: "nexa_rust_script_l0regular", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 30px;
+  line-height: 38px;
   margin-bottom: 25px;
 }
-header .intro-text .intro-lead-in span {
-  font-family: "nexa_rust_sansblack", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  margin: 0 15px;
+header .intro-text .intro-lead-in span.amp {
+  display: none;
+}
+header .intro-text .intro-lead-in span.br {
+  display: inline;
 }
 header .intro-text .intro-heading {
   font-family: "nexa_rust_slabblack_shadow_01", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 42px;
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
   header {
     background-attachment: fixed;
+    background-position: top;
   }
   header .intro-text {
     padding-top: 300px;
@@ -292,9 +294,18 @@ header .intro-text .intro-heading {
     line-height: 40px;
     margin-bottom: 25px;
   }
+  header .intro-text .intro-lead-in span.amp {
+    display: inline;
+    font-family: "nexa_rust_sansblack", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 0 15px;
+  }
+  header .intro-text .intro-lead-in span.br {
+    display: none;
+  }
   header .intro-text .intro-heading {
     font-size: 75px;
-    line-height: 75px;
+    line-height: 77px;
     margin-bottom: 50px;
   }
 }
