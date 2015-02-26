@@ -1,0 +1,13 @@
+/*
+Theme Name: bh2014
+Theme URI: http://brianhamburg.com
+Description: A theme built with love for Brian Hamburg's homepage.
+Author: Brian Hamburg
+Author URI: http://brianhamburg.com
+Version: 1.0
+Tags: responsive, white, html5, skeleton
+*/
+
+@import url('stylesheets/base.css');
+@import url('stylesheets/skeleton.css');
+@import url('stylesheets/layout.css');
