@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
 header {
   background-color: #303030;
   background-image: url('../img/philly1927-1080px.jpg');
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center 50px;
   -webkit-background-size: cover;
