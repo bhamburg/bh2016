@@ -4,8 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -13,6 +13,11 @@ $(function() {
         }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
+    
+    
+    // Hide preloader and fade in page after everything loads
+    $('.preloader').hide();
+    $('.main').fadeIn(1000);
 });
 
 // Highlight the top nav as scrolling occurs
