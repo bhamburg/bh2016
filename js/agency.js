@@ -13,11 +13,6 @@ $(function() {
         }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
-    
-    
-    // Hide preloader and fade in page after everything loads
-    $('.preloader').hide();
-    $('.main').fadeIn(1000);
 });
 
 // Highlight the top nav as scrolling occurs
