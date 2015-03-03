@@ -2,7 +2,7 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #ff6600;
+  background-color: white;
 }
 .preloader {
   position: absolute;
