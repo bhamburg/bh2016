@@ -804,6 +804,9 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #ff6600;
 }
+.portfolio-item {
+  min-height: 330px;
+}
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
