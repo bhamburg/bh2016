@@ -179,7 +179,8 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
   color: #ff6600;
-  font-family: "nexa_rust_script_l0regular", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "nexa_rust_slabblack_shadow_01", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
   padding: 22px 15px;
   font-size: 2.5em;
 }
@@ -239,7 +240,7 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    padding: 20px 15px;
+    padding: 15px;
   }
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
