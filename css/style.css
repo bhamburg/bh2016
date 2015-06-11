@@ -181,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
   color: #ff6600;
   font-family: "nexa_rust_slabblack_shadow_01", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  padding: 22px 15px;
+  padding: 18px 15px;
   font-size: 2.5em;
 }
 .navbar-default .navbar-brand:hover,
