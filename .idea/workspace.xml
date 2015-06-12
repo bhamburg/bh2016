@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5148a16e-0c3d-4111-9477-0cd72ed1885d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7563805">
-              <caret line="852" column="16" selection-start-line="852" selection-start-column="16" selection-end-line="852" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.4524362">
+              <caret line="412" column="21" selection-start-line="412" selection-start-column="21" selection-end-line="412" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -493,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7563805">
-          <caret line="852" column="16" selection-start-line="852" selection-start-column="16" selection-end-line="852" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.4524362">
+          <caret line="412" column="21" selection-start-line="412" selection-start-column="21" selection-end-line="412" selection-end-column="21" />
           <folding />
         </state>
       </provider>
