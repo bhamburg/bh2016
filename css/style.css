@@ -292,7 +292,7 @@ header .intro-text .intro-heading {
   line-height: 42px;
   margin-bottom: 25px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   header {
     background-attachment: fixed;
   }
@@ -368,7 +368,7 @@ section#posts a:active,
 section#posts a.active {
   color: #e6e6e6;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   section#posts {
     background-attachment: fixed;
   }
@@ -447,7 +447,7 @@ section#music {
   background-attachment: scroll;
   background-position: center center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   section#music {
     background-attachment: fixed;
   }
@@ -699,7 +699,7 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   section#contact {
     background-attachment: fixed;
   }
