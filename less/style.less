@@ -247,7 +247,6 @@ header {
 
 @media(min-width:768px) {
 	header {
-        background-attachment: fixed;
         background-position: top;
 		.intro-text {
 			padding-top: 300px;
@@ -300,12 +299,11 @@ section {
 }
 
 // Posts Section
-
 section#posts {
   background-color: @brand-primary;
   background-image: url('../img/philly1927-1080px-inverse.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   .background-cover;
   color: @gray-darkest;
@@ -685,7 +683,7 @@ section#contact {
 	}
 }
 
-@media(min-width:767px) {
+@media(min-width:1024px) {
     section#contact {
         background-attachment: fixed;
     }
