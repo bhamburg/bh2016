@@ -292,7 +292,7 @@ header .intro-text .intro-heading {
   line-height: 42px;
   margin-bottom: 25px;
 }
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   header {
     background-attachment: fixed;
     background-position: top;
@@ -428,7 +428,7 @@ section#posts a.active {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
+@media (min-width: 770px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
@@ -546,7 +546,7 @@ section#music {
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .timeline:before {
     left: 50%;
   }
@@ -695,7 +695,7 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c;
 }
-@media (min-width: 767px) {
+@media (min-width: 770px) {
   section#contact {
     background-attachment: fixed;
   }
