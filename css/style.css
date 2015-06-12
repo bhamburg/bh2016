@@ -342,9 +342,24 @@ section h3.section-subheading {
     padding: 150px 0;
   }
 }
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+section#posts {
+  background-color: #ff6600;
+  color: #303030;
+  min-height: 100vh;
+}
+section#posts a {
+  color: #fff;
+}
+section#posts a:hover,
+section#posts a:focus,
+section#posts a:active,
+section#posts a.active {
+  color: #e6e6e6;
+}
+@media (min-width: 767px) {
+  section#music {
+    background-attachment: fixed;
+  }
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;

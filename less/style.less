@@ -293,11 +293,27 @@ section {
 	}
 }
 
-// Services Section
+// Posts Section
 
-.service-heading {
-	margin: 15px 0;
-	text-transform: none;
+section#posts {
+  background-color: @brand-primary;
+  color: @gray-darkest;
+  a {
+	color: #fff;
+  }
+  a:hover,
+  a:focus,
+  a:active,
+  a.active {
+	color: darken(#fff, 10%);
+  }
+  min-height: 100vh;
+}
+
+@media(min-width:767px) {
+  section#music {
+	background-attachment: fixed;
+  }
 }
 
 // Portfolio Section
