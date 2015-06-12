@@ -344,6 +344,14 @@ section h3.section-subheading {
 }
 section#posts {
   background-color: #ff6600;
+  background-image: url('../img/philly1927-1080px-inverse.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   color: #303030;
   min-height: 100vh;
 }
