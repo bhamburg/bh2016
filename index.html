@@ -24,7 +24,7 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -246,7 +246,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Music Section -->
     <section id="music" class="bg-light-gray">
         <div class="container">
@@ -690,30 +690,16 @@
         </div>
     </div>
 </div>
-    
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Load all the scripts! -->
+    <script src="js/app.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-    
     <!-- Preloader -->
     <script>
-        // Hide preloader and fade in page after everything loads
-        $('.preloader').hide();
-        $('.main').show();
+      // Hide preloader and fade in page after window loads
+      $(window).load(function() {
+        $('.main').fadeIn('slow').delay(3000);
+      });
     </script>
 
     <!-- Google Analytics -->
