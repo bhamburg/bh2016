@@ -56,6 +56,7 @@
 </head>
 
 <body id="page-top" class="index">
+<div class="preloader"><i class="fa fa-cog fa-5x rotating"></i></div>
 <div class="main">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -68,7 +69,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll animated flip delay2" href="#page-top">bh</a>
+                <a class="navbar-brand page-scroll animated tada delay1" href="#page-top">bh</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -223,21 +224,72 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 text-center">
-                    <a href="http://www.linkedin.com/in/brianhamburg/
-" style="text-align: center"><i class="fa fa-linkedin-square fa-5x text-center"></i>
-                    <h4 class="service-heading text-center">View My LinkedIn Profile</h4></a>
+                    <a href="http://www.linkedin.com/in/brianhamburg/" style="text-align: center"><i class="fa fa-linkedin-square fa-5x text-center"></i>
+                    <h4 class="service-heading text-center">LinkedIn Profile</h4></a>
                     <p class="text-left">In addition to these pieces, find out more about me professionally on my <a href="http://www.linkedin.com/in/brianhamburg/
                         ">LinkedIn profile</a> which I keep up-to-date. Feel free to connect with me!</p>
                 </div>
                 <div class="col-md-4 col-sm-6 text-center">
                     <a href="http://github.com/bhamburg" style="text-align: center"><i class="fa fa-github fa-5x text-center"></i>
-                    <h4 class="service-heading text-center">View My GitHub Profile</h4></a>
+                    <h4 class="service-heading text-center">GitHub Profile</h4></a>
                     <p class="text-left">Also, check out some of the code I've put up on <a href="http://github.com/bhamburg">GitHub</a> and follow along as I learn the latest trends in full-stack JavaScript and other technologies.</p>
                 </div>
                 <div class="col-md-4 col-md-push-0 col-sm-push-3 col-sm-6 text-center">
                     <a href="./old"><i class="fa fa-wordpress fa-5x text-center"></i>
-                    <h4 class="service-heading text-center">View My WordPress Archive</h4></a>
+                    <h4 class="service-heading text-center">WordPress Archive</h4></a>
                     <p class="text-left">If you came here to see my WordPress blog, I no longer maintain it. However, you can still view a <a href="./old">static snapshot</a> of my old site.</p>
+                </div>
+            </div>
+            <div class="row education" style="margin-top: 100px">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Education</h2>
+                    <h3 class="section-subheading text-muted">Diplomas and Badges</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="diploma">
+                      <i class="fa fa-certificate fa-3x"></i>
+                      <p><strong>La Salle University</strong><br>
+                        Master's Certificate<br>
+                        Application Development</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="diploma">
+                    <i class="fa fa-graduation-cap fa-3x"></i>
+                    <p><strong>La Salle University</strong><br>
+                      Bachelor of Science<br>
+                      Business Administration</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="diploma">
+                    <i class="fa fa-graduation-cap fa-3x"></i>
+                    <p><strong>Bucks County Community College</strong><br>
+                      Associate in Arts<br>
+                      Business Administration</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="diploma">
+                    <i class="fa fa-graduation-cap fa-3x"></i>
+                    <p><strong>CHI Institue</strong><br>
+                      Associate in Arts<br>
+                      Graphic Design</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                  <h4 class="service-heading text-center">Recent Treehouse Badges</h4>
+                  <div class="report-card treehouse"></div>
+                  <a href="http://teamtreehouse.com/brianhamburg" type="button" class="btn btn-primary">View Profile</a>
+                </div>
+                <div class="col-md-6 text-center">
+                  <h4 class="service-heading text-center">Recent Code School Badges</h4>
+                  <div class="report-card codeschool"></div>
+                  <a href="https://www.codeschool.com/users/638442" type="button" class="btn btn-primary">View Profile</a>
                 </div>
             </div>
         </div>
@@ -694,7 +746,18 @@
     <script>
       // Hide preloader and fade in page after window loads
       $(window).load(function() {
-        $('.main').show().delay(3000);
+        $('.preloader').fadeOut();
+        $('.main').fadeIn();
+      });
+      $('.report-card.treehouse').reportCard({
+          userName: 'brianhamburg',
+          site: 'treehouse',
+          badgesAmount: 7
+      });
+      $('.report-card.codeschool').reportCard({
+          userName: 'bhamburg',
+          site: 'codeschool',
+          badgesAmount: 6
       });
     </script>
 

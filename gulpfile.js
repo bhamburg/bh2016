@@ -17,7 +17,8 @@ gulp.task('concatScripts', function() {
     'js/cbpAnimatedHeader.js',
     'js/jqBootstrapValidation.js',
     'js/contact_me.js',
-    'js/agency.js'
+    'js/agency.js',
+    'js/reportcard.js'
     ])
   .pipe(maps.init())
   .pipe(concat('app.js'))
