@@ -5,12 +5,12 @@ Welcome to Brian Hamburg's home on the World Wide Web. This page, proudly hosted
 + [Bootstrap](http://getbootstrap.com/)
 + [Less](http://lesscss.org/)
 + [Animate.css](http://daneden.github.io/animate.css/)
-+ [Grunt](http://gruntjs.com/)
++ [Gulp.js](http://gulpjs.com/)
 + [Formspree](http://formspree.io/)
 
 ## Created with [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working contact form.
 
 ### Copyright and License
 
