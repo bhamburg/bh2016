@@ -11378,12 +11378,11 @@ body {
 }
 
 .main {
-  display: none;
   background-color: #ff6600;
 }
 
 .text-muted {
-  color: #666666;
+  color: #666;
 }
 
 .text-primary {
@@ -12366,7 +12365,7 @@ body {
 }
 
 .diploma i {
-  color: #666666;
+  color: #666;
 }
 
 .diploma p {

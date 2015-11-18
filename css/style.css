@@ -50,11 +50,10 @@ body {
   animation: rotating 2s linear infinite;
 }
 .main {
-  display: none;
   background-color: #ff6600;
 }
 .text-muted {
-  color: #666666;
+  color: #666;
 }
 .text-primary {
   color: #ff6600;
@@ -883,7 +882,7 @@ body {
   position: relative;
 }
 .diploma i {
-  color: #666666;
+  color: #666;
 }
 .diploma p {
   margin-top: .5em;
