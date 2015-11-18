@@ -135,7 +135,7 @@ $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
 
       Treehouse.prototype.getData = function() {
         return Treehouse.__super__.getData.call(this, {
-          dataType: 'json'
+          dataType: 'jsonp'
         });
       };
 
