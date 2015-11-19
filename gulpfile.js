@@ -18,7 +18,8 @@ gulp.task('concatScripts', function() {
     'js/jqBootstrapValidation.js',
     'js/contact_me.js',
     'js/agency.js',
-    'js/reportcard.js'
+    'js/reportcard.js',
+    'js/animsition/js/animsition.min.js'
     ])
   .pipe(maps.init())
   .pipe(concat('app.js'))
@@ -45,6 +46,7 @@ gulp.task('concatStyles', ['complileLess'], function() {
   return gulp.src([
     'css/bootstrap.min.css',
     'css/animate.min.css',
+    'js/animsition/css/animsition.min.css',
     'css/style.css'
     ])
   .pipe(concatCSS('bundle.css'))
