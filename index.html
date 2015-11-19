@@ -77,9 +77,6 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <!--<li>-->
-                        <!--<a class="page-scroll" href="#posts">Posts</a>-->
-                    <!--</li>-->
                     <li>
                         <a class="page-scroll" href="#portfolio">Work</a>
                     </li>
@@ -264,16 +261,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 text-center">
-                  <h4 class="service-heading text-center">Recent Treehouse Badges</h4>
+                <div class="col-md-6 col-md-push-3 text-center">
+                  <h4 class="service-heading text-center">Latest Team Treehouse Badges</h4>
                   <div class="report-card treehouse"></div>
                   <a href="http://teamtreehouse.com/brianhamburg" type="button" class="btn btn-primary">View Profile</a>
                 </div>
-                <div class="col-md-6 text-center">
+                <!--<div class="col-md-6 text-center">
                   <h4 class="service-heading text-center">Recent Code School Badges</h4>
                   <div class="report-card codeschool"></div>
                   <a href="https://www.codeschool.com/users/638442" type="button" class="btn btn-primary">View Profile</a>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
@@ -722,56 +719,54 @@
     </div>
 </div>
 
-    <!-- Load all the scripts! -->
-    <script src="js/app.min.js"></script>
+<!-- Load all the scripts! -->
+<script src="js/app.min.js"></script>
+<script>
+  $('.report-card.treehouse').reportCard({
+      userName: 'brianhamburg',
+      site: 'treehouse',
+      badgesAmount: 6
+  });
+  $('.report-card.codeschool').reportCard({
+      userName: 'bhamburg',
+      site: 'codeschool',
+      badgesAmount: 6
+  });
+  $(document).ready(function() {
+    $(".animsition").animsition({
+      inClass: 'fade-in-up',
+      outClass: 'fade-out-up',
+      inDuration: 1500,
+      outDuration: 800,
+      linkElement: '.animsition-link',
+      // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+      loading: true,
+      loadingParentElement: 'body', //animsition wrapper element
+      loadingClass: 'animsition-loading',
+      loadingInner: '', // e.g '<img src="loading.svg" />'
+      timeout: false,
+      timeoutCountdown: 5000,
+      onLoadEvent: true,
+      browser: [ 'animation-duration', '-webkit-animation-duration'],
+      // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+      // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+      overlay : false,
+      overlayClass : 'animsition-overlay-slide',
+      overlayParentElement : 'body',
+      transition: function(url){ window.location.href = url; }
+    });
+  });
+</script>
 
-    <script>
-      $('.report-card.treehouse').reportCard({
-          userName: 'brianhamburg',
-          site: 'treehouse',
-          badgesAmount: 7
-      });
-      $('.report-card.codeschool').reportCard({
-          userName: 'bhamburg',
-          site: 'codeschool',
-          badgesAmount: 6
-      });
-        
-      $(document).ready(function() {
-        $(".animsition").animsition({
-          inClass: 'fade-in',
-          outClass: 'fade-out',
-          inDuration: 1500,
-          outDuration: 800,
-          linkElement: '.animsition-link',
-          // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
-          loading: true,
-          loadingParentElement: 'body', //animsition wrapper element
-          loadingClass: 'animsition-loading',
-          loadingInner: '', // e.g '<img src="loading.svg" />'
-          timeout: false,
-          timeoutCountdown: 5000,
-          onLoadEvent: true,
-          browser: [ 'animation-duration', '-webkit-animation-duration'],
-          // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-          // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-          overlay : false,
-          overlayClass : 'animsition-overlay-slide',
-          overlayParentElement : 'body',
-          transition: function(url){ window.location.href = url; }
-        });
-      });
-    </script>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-11699016-1', 'brianhamburg.com');
-      ga('send', 'pageview');
-    </script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-11699016-1', 'brianhamburg.com');
+  ga('send', 'pageview');
+</script>
 
 </body>
 
