@@ -46,16 +46,29 @@
     <script src="js/jquery.lazyload.min.js"></script>
     
     <script>
+    /* variables for "currently reading" */
+    var book = "Harry Potter and the Goblet of Fire",
+        author = "JK Rowling";
+    
+    /* randomize twins order */  
+    var daughters = ["Elizabeth","Louise"];
+    coinFlip() ? daughters.reverse() : null;
+      
+    function coinFlip() {
+        return (Math.floor(Math.random() * 2) == 0);
+    }
+    
     $(function(){
       $(".typed").typed({
         strings: [
           "^1000 is a <strong>web developer</strong>. ^1000",
-          " <strong>designs</strong> for print and the Web. ^1000",
+          " <strong>designs</strong> for digital and print. ^1000",
           " plays the <strong>banjo</strong>. ^1000",
-          " is currently reading <em>Harry Potter and the Goblet of Fire</em> by JK Rowling.",
+          " is currently reading <em>" + book + "</em> by " + author + ".",
           " is a mammal.",
-          /*" has <em>twin</em> baby girls.",*/
-          " lives in Philadelphia, Pennsylvania.",
+          /* " has twin baby girls named " + daughters[0] + " and " + daughters[1] + ".", */
+          " lives",
+          " loves Philadelphia.",
           " is a happily married man.",
           " has a pet rabbit named <strong>Java</strong>.",
           " is a mummer.",
@@ -67,13 +80,10 @@
         ],
         typeSpeed: 50
       });
-      $("body.lazy").lazyload({
-          effect : "fadeIn"
-      });
     });
     </script>
   </head>
-  <body class="lazy">
+  <body>
     <h1><a class="logo" href="/"><span>bh</span></a> Brian Hamburg<span class="typed"></span></h1>
     <div class="container">
       Elsewhere on the World Wide Web:<br>
