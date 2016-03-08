@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+body {
+  font-family: 'Merriweather', 'Palatino', serif;
+  background-color: #eee;
+  margin: 0; padding: 0;
+  height: 100vh;
+  background-image: url("../img/banjo-nursery.png");
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.logo {
+  background-color: black;
+  padding: .3em;
+  display: inline;
+  font-weight: normal;
+  text-shadow: none;
+}
+
+.logo span {
+  color: #ccc;
+  background: -webkit-linear-gradient(#fff, #666);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 100;
+  color: #222;
+  margin: 0 0 0 2.2em;
+  text-indent: -2.2em;
+  line-height: 1.8;
+}
+
+a {
+  color: #555;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+a:hover {
+  color: #000;
+}
+
+.container {
+  width: auto;
+  overflow: auto;
+  margin: 1em;
+  position: absolute;
+  left: 0; bottom: 0; right: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+.container a {
+  font-size: 3em; margin: .3em; text-decoration: none; font-family: 'Helvetica','Arial',sans-serif;
+}
+.goodreads {
+  font-weight: 100;
+  vertical-align: top;
+  line-height: 1.15;
+}
