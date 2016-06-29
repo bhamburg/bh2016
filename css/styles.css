@@ -3,7 +3,7 @@
 body {
   font-family: 'Merriweather', 'Palatino', serif;
   background-color: #eee;
-  margin: 0; padding: 0;
+  margin: 0; padding: 0 45px 0 0;
   height: 100vh;
   background-image: url("../img/banjo-nursery.png");
   background-size: cover;
