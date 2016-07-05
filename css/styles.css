@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 body {
-  font-family: 'Courier New','Courier',monospace;
+  font-family: 'Merriweather','Palatino',serif;
   background-color: #eee;
   margin: 0; padding: 0 1em 0 0;
   height: 100vh;
@@ -12,7 +12,6 @@ body {
 }
 
 .logo {
-  font-family: 'Merriweather','Palatino',serif;
   background-color: black;
   padding: .3em;
   display: inline;
