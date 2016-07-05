@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 body {
-  font-family: 'Inconsolata','Courier New','Courier','Lucida Sans Typewriter','Lucida Typewriter',monospace;;
+  font-family: 'Courier New','Courier',monospace;
   background-color: #eee;
   margin: 0; padding: 0 1em 0 0;
   height: 100vh;
@@ -12,6 +12,7 @@ body {
 }
 
 .logo {
+  font-family: 'Merriweather','Palatino',serif;
   background-color: black;
   padding: .3em;
   display: inline;
@@ -49,6 +50,7 @@ a:hover {
 }
 
 .container {
+  font-family: 'Merriweather','Palatino',serif;
   width: auto;
   overflow: auto;
   margin: 1em;
