@@ -35,26 +35,28 @@ h1 {
   line-height: 1.8;
 }
 
-a {
+a, a svg {
   color: #555;
-  -webkit-transition: color 0.5s linear;
-  -moz-transition: color 0.5s linear;
-  -ms-transition: color 0.5s linear;
-  -o-transition: color 0.5s linear;
-  transition: color 0.5s linear;
+  fill: #555;
+  -webkit-transition: fill 0.5s linear, color 0.5s linear;
+  -moz-transition: fill 0.5s linear, color 0.5s linear;
+  -ms-transition: fill 0.5s linear, color 0.5s linear;
+  -o-transition: fill 0.5s linear, color 0.5s linear;
+  transition: fill 0.5s linear, color 0.5s linear;
   text-decoration: none;
 }
-a:hover {
+a:hover, a:hover svg {
   color: #000;
+  fill: #000;
 }
 
 .container {
   font-family: 'Merriweather','Palatino',serif;
   width: auto;
   overflow: auto;
-  margin: 1em;
+  margin: 2em;
   position: absolute;
-  left: 0; bottom: 2em; right: 0;
+  left: 0; bottom: 5em; right: 0;
   text-align: center;
   line-height: 1.5;
 }
