@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://fonts.googleapis.com/css?family=VT323');
 
 body {
-  font-family: 'VT323',monospaced;
+  font-family: 'Merriweather','Palatino',serif;
   background-color: #eee;
   margin: 0; padding: 0 1em 0 0;
   height: 100vh;
@@ -18,7 +17,6 @@ body {
   display: inline;
   font-weight: normal;
   text-shadow: none;
-  font-family: 'Merriweather','Palatino',serif;
 }
 
 .logo span {
