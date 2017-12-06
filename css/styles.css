@@ -18,6 +18,7 @@ body {
   display: inline;
   font-weight: normal;
   text-shadow: none;
+  font-family: 'Merriweather','Palatino',serif;
 }
 
 .logo span {
@@ -34,9 +35,6 @@ h1 {
   margin: 0 0 0 2.2em;
   text-indent: -2.2em;
   line-height: 1.8;
-}
-
-.typed {
   font-family: 'Inconsolata', monospaced;
 }
 
